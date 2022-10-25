@@ -87,9 +87,10 @@ public class Estudiante {
 		
 		if (a.notaMedia > b.notaMedia) {
 			return a;
-		}else {
-			return b;
 		}
+		
+		return b;
+		
 		
 	}
 	
